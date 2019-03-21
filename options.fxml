@@ -1,0 +1,29 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+<?import java.net.URL?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane fx:controller="uic.cs.marvin.musictrainingsim.OptionsController"
+            xmlns:fx="http://javafx.com/fxml">
+    <padding><Insets left="20"/></padding>
+
+    <top>
+        <HBox>
+            <Label text="Options"
+                   styleClass="header"/>
+        </HBox>
+    </top>
+
+    <center>
+        <Label fx:id="fullscreenLabel"
+               BorderPane.alignment="CENTER"
+               text="Fullscreen"
+               onMouseEntered="#mouseEnteredHandler" onMouseExited="#mouseExitedHandler"
+               onMouseClicked="#setFullscreen"/>
+    </center>
+
+    <stylesheets>
+        <URL value="@css/stylesheet.css" />
+    </stylesheets>
+</BorderPane>

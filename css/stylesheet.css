@@ -1,0 +1,23 @@
+.root {
+    -fx-font-size: 20;
+}
+
+.header {
+    -fx-font-size: 45;
+    -fx-font-weight: bolder;
+    -fx-text-alignment: left;
+}
+
+.hover {
+    -fx-font-size: 25;
+}
+
+.key{
+  -fx-border-color: black;
+  -fx-border-width:1;
+  -fx-border-style:solid;
+}
+
+.highlight{
+    -fx-background-color: teal
+}

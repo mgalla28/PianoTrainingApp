@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="uic.cs.marvin.musictrainingsim.MainController"
+            prefHeight="400.0" prefWidth="600.0">
+    <Label text = "Piano Training Simulator"></Label>
+
+    <Label text = "Lesson" ></Label>
+
+    <Label text = "Free play"></Label>
+
+    <Label text = "Options"></Label>
+
+    <Label text = "Exit"></Label>
+</StackPane>

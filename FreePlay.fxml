@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import java.net.URL?>
+
+<GridPane
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="uic.cs.marvin.musictrainingsim.FreePlayController"
+            fx:id="grid">
+
+
+    <stylesheets>
+        <URL value="@css/stylesheet.css"></URL>
+    </stylesheets>
+
+
+</GridPane>
+
+

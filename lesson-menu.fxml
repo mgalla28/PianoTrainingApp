@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="uic.cs.marvin.musictrainingsim.LessonMenuController"
+          prefHeight="400.0" prefWidth="600.0">
+
+    <VBox GridPane.rowIndex = "0" GridPane.columnIndex="0" fx:id="Lesson1VBox"
+          prefHeight="400.0" prefWidth="300.0"
+          onMouseEntered="#mouseEnteredHandler" onMouseExited="#mouseExitedHandler"
+          onMouseClicked="#playLesson1">
+
+        <Label text = 'Lesson 1: Tutorial'></Label>
+
+    </VBox>
+
+    <VBox GridPane.rowIndex = "0" GridPane.columnIndex="1" fx:id="Lesson2VBox"
+          prefHeight="400.0" prefWidth="300.0"
+          onMouseEntered="#mouseEnteredHandler" onMouseExited="#mouseExitedHandler"
+          onMouseClicked="#playLesson2">
+        <Label text = 'Lesson 2: Note Finding'></Label>
+
+    </VBox>
+
+    <stylesheets>
+        <URL value="@css/stylesheet.css" />
+    </stylesheets>
+</GridPane>
